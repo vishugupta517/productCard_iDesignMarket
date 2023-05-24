@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Istok Web", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 300px;
+  border: 2px solid tomato;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.productImage {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.title {
+  max-width: 100%;
+}
+
+.discountPercentage {
+  color: #cc0c39;
+}
+
+.price {
+  padding: 0 10px;
+  color: #0f1111;
+}
+
+.mrp {
+  color: #565959;
+  text-decoration: line-through;
+}
+
+.message {
+  background: #cc0c39;
+  color: #ffffff;
+  padding: 3px 8px;
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  right: 0px;
+}
+
+button {
+  display: block;
+  padding: 7px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #0f1111;
+  color: white;
+}
+
+/* .contentBox {
+  margin-top: auto;
+} */

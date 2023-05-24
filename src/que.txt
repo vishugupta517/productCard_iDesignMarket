@@ -1,0 +1,9 @@
+Product Listing Page
+API for fetching Products: https://dummyjson.com/products?limit=100
+
+1: Create a User Interface for the product listing page.
+2: list Products in card view .
+3: If the stock is less than 50 numbers, display a message "hurry! only a few  left".
+
+
+Upload the solution on github and share the link.
